@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image:no;
+}
+
+a{
+
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+}
+
+a:hover{
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    color: white;
+    opacity: 0.8;
+}
+
+#title{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    padding-top: 20px;
+    border-bottom: solid white 1px;
+    background-color: black;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+#title-contact{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact{
+    margin-left: 30px;
+}
+
+.formcont{
+    width: 570px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 34px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 33px;
+    position: relative;
+    bottom: 0;
+    width: 100%;  
+}
+
+
+.submit{
+    width: 150px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#name-error{
+    display: none;
+}
+
+#email-error{
+    display: none;
+}
+
+#phone-error{
+    display: none;
+}
+
+#message-error{
+    display: none;
+}

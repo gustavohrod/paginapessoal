@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="styles/stylecontato.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p id="title">Gustavo Rodrigues</p>
+
+            <ul class="nav-list">
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="descricao.html">Descrição</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact">
+        <h1 id="title-contact">CONTATO</h1>
+        <form class="formcont px-2 ml-2">
+            <div class="mb-2">
+                <label for="inputName" class="form-label">Nome</label>
+                <input type="name" class="form-control" id="inputName" name="inputName" aria-describedby="nameHelp">
+                <div class="alert alert-danger mt-2" id="name-error" role="alert">
+                    O nome deve ter entre 1 e 50 caracteres.
+                  </div>
+            </div>
+            <div class="mb-2">
+                <label for="inputEmail" class="form-label">Email </label>
+                <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp">
+                <div class="alert alert-danger mt-2" id="email-error" role="alert">
+                    O campo deve ser preenchido com um email
+                  </div>
+            </div>
+            <div class="mb-2">
+                <label for="inputphone" class="form-label">Tefefone </label>
+                <input type="text" class="form-control" id="inputphone" name="inputphone" aria-describedby="phoneHelp">
+                <div class="alert alert-danger mt-2" id="phone-error" role="alert">
+                    O campo deve ser preenchido com números
+                  </div>
+            </div>
+            <div class="mb-2">
+                <label for="textareaMessage" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="textareaMessage" name="textareaMessage" rows="2"></textarea>
+                <div class="alert alert-danger mt-2" id="message-error" role="alert">
+                    A descrição deve ter entre 1 e 200 caracteres.
+                  </div>
+            </div>
+            <button type="submit" class="btn btn-outline-dark submit">Enviar</button>
+        </form>
+    </div>
+    <footer>GNU General Public License v3.0 - Desenvolvido por Gustavo Rodrigues</footer>
+    <script src="scripts/scriptcontato.js"></script>
+</body>
+
+</html>
